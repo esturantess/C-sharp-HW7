@@ -82,4 +82,5 @@ int n = rand.Next(2, 6);
 int[,] matrix = FillMatrix(m, n);
 
 PrintMatrix(matrix);
+Console.WriteLine();
 FindElementIndex(matrix, number);
